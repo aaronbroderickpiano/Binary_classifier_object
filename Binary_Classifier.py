@@ -12,6 +12,10 @@ class Classification_Model:
     def __init__(self, df):
         self.df = df
         
+    def explain(self):
+    
+    	print ('This is what I can do')
+        
     def target_variable(self, y_var_string):
         
         if y_var_string in list(self.df):
